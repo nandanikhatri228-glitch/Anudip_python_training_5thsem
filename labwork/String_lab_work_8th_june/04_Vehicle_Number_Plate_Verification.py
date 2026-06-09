@@ -124,5 +124,16 @@ print("--------------------------------------------------")
 # 7. Display Final Status
 
 print("Vehicle Number Status: Valid")
-
+'''Sample Output 
+Vehicle Number: MH12AB4589 
+State Code: MH 
+District Code: 12 
+Series: AB 
+Vehicle Number: 4589 
+ 
+Total Letters: 4 
+Total Digits: 6 
+ 
+Vehicle Number Status: Valid 
+'''
 
