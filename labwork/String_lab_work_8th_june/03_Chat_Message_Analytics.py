@@ -26,12 +26,6 @@ if not message:
 # Convert message into list of words
 #it is not required 
 word_list = message.split()
-
-# Validation 2
-
-if len(word_list) == 0:
-    exit("Message must contain at least one word")
-
 print("--------------------------------------------------")
 print("Message:")
 print(message)
