@@ -86,3 +86,22 @@ elif len(password) >= 8:
 
 else:
     print("Password Strength: Weak")
+
+'''Sample Output 
+Message: 
+Python is awesome and Python is easy to learn 
+ 
+Total Characters: 45 
+Total Words: 8 
+ 
+Longest Word: awesome 
+Shortest Word: is 
+ 
+Occurrences of Python: 2 
+ 
+Words Longer Than 4 Characters: 
+['Python', 'awesome', 'Python', 'learn'] 
+ 
+Vowels: 16 
+Consonants: 22 
+'''
