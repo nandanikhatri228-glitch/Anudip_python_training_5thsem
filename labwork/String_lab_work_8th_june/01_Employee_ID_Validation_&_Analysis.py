@@ -98,4 +98,21 @@ print("Sum of Digits:", digit_sum)
 print("-------------------------------------------------------")
 
 # 8. ID Status
-print("ID Status: Valid")
+is_valid = True
+
+if prefix != "EMP":
+    is_valid = False
+
+if len(year) != 4 or not year.isdigit():
+    is_valid = False
+
+if not name:
+    is_valid = False
+
+if len(emp_no) != 3 or not emp_no.isdigit():
+    is_valid = False
+
+if is_valid:
+    print("ID Status: Valid")
+else:
+    print("ID Status: Invalid")
