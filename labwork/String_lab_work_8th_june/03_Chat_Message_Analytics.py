@@ -24,7 +24,7 @@ if not message:
 
 # ----------------------------------------------------
 # Convert message into list of words
-
+#it is not required 
 word_list = message.split()
 
 # Validation 2
